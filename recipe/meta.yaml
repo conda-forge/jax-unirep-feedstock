@@ -1,5 +1,5 @@
 {% set name = "jax-unirep" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jax_unirep-{{ version }}.tar.gz
-  sha256: edd5d9286f666a28fa648ca9534db29dc458ea7e030a856b472dbfdb71730629
+  sha256: d1914b79bf434fb91b8fc2623feb791b7ecb250a0a917bb226ecbc3632f72f5e
 
 build:
   noarch: python
